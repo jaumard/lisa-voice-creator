@@ -1,0 +1,12 @@
+{
+  "name": "lisa-voice-creator",
+  "version": "0.0.3",
+  "description": "L.I.S.A. standalone module for pi zero and matrix creator board",
+  "main": "index.js",
+  "repository": "https://github.com/jaumard/lisa-voice-creator",
+  "author": "jaumard <jimmy.aumard@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lisa-standalone-voice-command": "^1.0.6"
+  }
+}
