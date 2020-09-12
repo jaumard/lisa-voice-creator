@@ -733,19 +733,19 @@ lcid@^1.0.0:
   dependencies:
     invert-kv "^1.0.0"
 
-lisa-discovery@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/lisa-discovery/-/lisa-discovery-1.0.2.tgz#8534a813db55d0e513353f2bcbf3d0204376e823"
-
-lisa-standalone-voice-command@^1.0.3:
+lisa-discovery@^1.0.4:
   version "1.0.4"
-  resolved "https://registry.yarnpkg.com/lisa-standalone-voice-command/-/lisa-standalone-voice-command-1.0.4.tgz#201996d590961430ac2a50a29f8e09b6f5c0af32"
+  resolved "https://registry.yarnpkg.com/lisa-discovery/-/lisa-discovery-1.0.4.tgz#8a0308d73cdf8d15ed3f1b4cf96bd55158d6c367"
+
+lisa-standalone-voice-command@^1.0.6:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/lisa-standalone-voice-command/-/lisa-standalone-voice-command-1.0.13.tgz#26ab1e4af7af42d531f87c0a2364c89177c0502c"
   dependencies:
-    lisa-discovery "^1.0.2"
+    lisa-discovery "^1.0.4"
     matrix-protos "^0.1.1"
     pico-speaker "^0.0.7"
     request "^2.88.2"
-    request-promise-native "^1.0.8"
+    request-promise-native "^1.0.9"
     sonus "^1.0.3"
     uuid "^7.0.2"
     zeromq "^5.2.0"
@@ -774,9 +774,9 @@ lodash@^3.10.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+lodash@^4.17.19:
+  version "4.17.20"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
 
 long@^3.2.0, long@~3:
   version "3.2.0"
@@ -900,8 +900,8 @@ node-abi@^2.7.0:
     semver "^5.4.1"
 
 node-fetch@^2.3.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
 
 node-forge@^0.8.0:
   version "0.8.5"
@@ -1177,17 +1177,17 @@ readable-stream@^2.0.0, readable-stream@^2.0.6:
     string_decoder "~1.0.3"
     util-deprecate "~1.0.1"
 
-request-promise-core@1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/request-promise-core/-/request-promise-core-1.1.3.tgz#e9a3c081b51380dfea677336061fea879a829ee9"
+request-promise-core@1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/request-promise-core/-/request-promise-core-1.1.4.tgz#3eedd4223208d419867b78ce815167d10593a22f"
   dependencies:
-    lodash "^4.17.15"
+    lodash "^4.17.19"
 
-request-promise-native@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/request-promise-native/-/request-promise-native-1.0.8.tgz#a455b960b826e44e2bf8999af64dff2bfe58cb36"
+request-promise-native@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/request-promise-native/-/request-promise-native-1.0.9.tgz#e407120526a5efdc9a39b28a5679bf47b9d9dc28"
   dependencies:
-    request-promise-core "1.1.3"
+    request-promise-core "1.1.4"
     stealthy-require "^1.1.1"
     tough-cookie "^2.3.3"
 
